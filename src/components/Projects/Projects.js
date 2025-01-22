@@ -6,6 +6,8 @@ import pos from "../../Assets/Projects/pos-pic.png";
 import ecommerce from "../../Assets/Projects/ecommerce.jpg";
 import trimtime from "../../Assets/Projects/Apps.png";
 import goatlang from "../../Assets/Projects/goatlang-pic.jpeg";
+import tnp from "../../Assets/Projects/tnp.png";
+import macWorldImage from "../../Assets/Projects/macworld.png";
 import apple from "../../Assets/Projects/apple.png";
 import ideaVault from "../../Assets/Projects/ideavault.jpeg";
 
@@ -32,6 +34,32 @@ function Projects() {
               demoLink="https://www.npmjs.com/package/goatcod"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tnp}
+              isBlog={false}
+              title="TNP - Travel & Tours"
+              stack="React Js, Node Js, Express Js, MongoDB"
+              description="TNP is a comprehensive travel website offering tailored travel packages, hotel bookings, and car rental services. Users can explore destinations, compare prices, and plan their trips seamlessly. The platform provides detailed itineraries, customer reviews, and secure payment options, ensuring a hassle-free travel experience."
+              ghLink="https://github.com/btsstudio01/tnp"
+              demoLink="https://tnp-bay.vercel.app/"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={macWorldImage}
+              isBlog={false}
+              title="Mac World Properties"
+              stack="React Js, Node Js, Express Js, MongoDB"
+              description="Mac World Properties is a trusted real estate platform offering a wide range of properties, including houses, apartments, and commercial spaces. Whether you're looking to buy, rent, or invest, the platform provides detailed property listings, virtual tours, and expert guidance to help you make informed decisions."
+              ghLink="https://github.com/AsadUllahkhan19/realestatebackend"
+              demoLink="https://www.macworldproperties.com/"
+            />
+          </Col>
+
 
 
 
@@ -99,7 +127,6 @@ Delivers a seamless shopping experience across devices and screen sizes.
 Features a modern and intuitive design, easy navigation, and secure checkout.
 Showcases products with high-quality images, detailed descriptions, and customer reviews."
               ghLink="https://github.com/rajjafarhan/project"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>

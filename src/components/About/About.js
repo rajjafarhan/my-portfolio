@@ -11,6 +11,30 @@ import './ExperienceBox.css';
 
 const experienceData = [
   {
+    title: 'Junior Software Engineer',
+    company: 'Caliber Tech',
+    date: 'Dec. 2024 – Present',
+    location: 'Remote',
+    details: [
+      'Developing and optimizing frontend applications using React.js to deliver engaging user experiences.',
+      'Building and maintaining backend services with Django, ensuring scalability and performance.',
+      'Collaborating with cross-functional teams to align development with business requirements and project goals.'
+    ]
+}
+,
+  {
+    title: 'Python Developer - Internship',
+    company: 'Rewterz',
+    date: 'Sept. 2024 – Dec. 2024',
+    location: 'Karachi, Pakistan',
+    details: [
+      'Explored Security Incident Response Platform (SIRP) and Security Orchestration, Automation, and Response (SOAR) solutions.',
+      'Developed Python scripts for system integrations and automation.',
+      'Built a car booking application using Django, inspired by Careem and Uber, with a separate driver dashboard for enhanced functionality.'
+    ]
+}
+,
+  {
     title: 'Software Engineer - Internship',
     company: 'Mazik Global',
     date: 'July 2024 – Aug. 2024',
