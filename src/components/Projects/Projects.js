@@ -6,6 +6,7 @@ import pos from "../../Assets/Projects/pos-pic.png";
 import ecommerce from "../../Assets/Projects/ecommerce.jpg";
 import trimtime from "../../Assets/Projects/Apps.png";
 import goatlang from "../../Assets/Projects/goatlang-pic.jpeg";
+import flint from "../../Assets/Projects/flint.png";
 import tnp from "../../Assets/Projects/tnp.png";
 import macWorldImage from "../../Assets/Projects/macworld.png";
 import apple from "../../Assets/Projects/apple.png";
@@ -23,6 +24,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={flint}
+              isBlog={false}
+              title="FLINT"
+              stack="Next.js, Nest.js, Python, Generative AI, Azure, GitHub"
+              description="Flint is an AI-powered platform that streamlines the Software Development Life Cycle (SDLC) by automating requirement engineering, architecture documentation, and team management. It uses Generative AI and NLP to transform unstructured inputs into structured user stories, UML diagrams, and skill-based task assignments."
+              ghLink="https://github.com/flint-dev01/FlintFrontend"
+              demoLink="https://flint-frontend.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={goatlang}

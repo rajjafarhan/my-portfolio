@@ -11,7 +11,7 @@ import './ExperienceBox.css';
 
 const experienceData = [
   {
-    title: 'Junior Software Engineer',
+    title: 'Associate Software Engineer',
     company: 'Caliber Tech',
     date: 'Dec. 2024 – Present',
     location: 'Remote',
